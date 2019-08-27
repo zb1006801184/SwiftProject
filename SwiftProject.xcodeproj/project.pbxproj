@@ -14,6 +14,7 @@
 		2AE3728023151C5B00E83724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE3727E23151C5B00E83724 /* LaunchScreen.storyboard */; };
 		2AE3728B23151C5C00E83724 /* SwiftProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3728A23151C5C00E83724 /* SwiftProjectTests.swift */; };
 		2AE3729623151C5C00E83724 /* SwiftProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3729523151C5C00E83724 /* SwiftProjectUITests.swift */; };
+		2AE372A523151F1300E83724 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE372A423151F1300E83724 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2AE3729123151C5C00E83724 /* SwiftProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE3729523151C5C00E83724 /* SwiftProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProjectUITests.swift; sourceTree = "<group>"; };
 		2AE3729723151C5C00E83724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE372A423151F1300E83724 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		2AE3727423151C5B00E83724 /* SwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				2AE372A323151E9000E83724 /* TabbarViewController */,
 				2AE3727523151C5B00E83724 /* AppDelegate.swift */,
 				2AE3727723151C5B00E83724 /* ViewController.swift */,
 				2AE3727923151C5B00E83724 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				2AE3729723151C5C00E83724 /* Info.plist */,
 			);
 			path = SwiftProjectUITests;
+			sourceTree = "<group>";
+		};
+		2AE372A323151E9000E83724 /* TabbarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2AE372A423151F1300E83724 /* TabBarViewController.swift */,
+			);
+			path = TabbarViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AE3727823151C5B00E83724 /* ViewController.swift in Sources */,
+				2AE372A523151F1300E83724 /* TabBarViewController.swift in Sources */,
 				2AE3727623151C5B00E83724 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
