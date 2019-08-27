@@ -18,10 +18,13 @@ class TabBarViewController: UITabBarController {
     }
     func createViewController() {
         let v1  = ViewController()
-        let item1 : UITabBarItem = UITabBarItem (title: "第一页面", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))
+        let item1 : UITabBarItem = UITabBarItem (title: "第一页面", image: UIImage(named: "home"), selectedImage: UIImage(named: "homeco")?.withRenderingMode(.alwaysOriginal))
         v1.tabBarItem = item1
-    
-        let tabArray = [v1]
+        v1.tabBarItem!.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.lightGray], for: UIControl.State())
+        //导航栏
+        let nav = UINavigationController(rootViewController: v1)
+        
+        let tabArray = [nav]
         self.viewControllers = tabArray
     }
 
