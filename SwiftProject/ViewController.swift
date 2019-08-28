@@ -20,7 +20,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         // Do any additional setup after loading the view.
         self.view.backgroundColor = UIColor.white
         self.title = "首页";
-        listData = ["UITableView"]
+        listData = ["UITableView","Block的使用"]
         createTableView()
     }
     func createTableView() -> Void {
@@ -49,6 +49,16 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             let listDemo = ListDemoViewController()
             listDemo.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(listDemo, animated: true)
+        }
+        if indexPath.row == 1 {
+            let blockDemo = BlockDemoViewController()
+            blockDemo.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(blockDemo, animated: true)
+           //Block的实现
+            blockDemo.changeTitleBlock = {(title:String)->Void in
+                self.title = title
+            }
+            
         }
     }
     

@@ -16,6 +16,8 @@
 		2AE3729623151C5C00E83724 /* SwiftProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3729523151C5C00E83724 /* SwiftProjectUITests.swift */; };
 		2AE372A523151F1300E83724 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE372A423151F1300E83724 /* TabBarViewController.swift */; };
 		2AE372A723152ADA00E83724 /* ListDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE372A623152ADA00E83724 /* ListDemoViewController.swift */; };
+		2AE372AA231531FC00E83724 /* BlockDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE372A8231531FC00E83724 /* BlockDemoViewController.swift */; };
+		2AE372AB231531FC00E83724 /* BlockDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AE372A9231531FC00E83724 /* BlockDemoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		2AE3729723151C5C00E83724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AE372A423151F1300E83724 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		2AE372A623152ADA00E83724 /* ListDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDemoViewController.swift; sourceTree = "<group>"; };
+		2AE372A8231531FC00E83724 /* BlockDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockDemoViewController.swift; sourceTree = "<group>"; };
+		2AE372A9231531FC00E83724 /* BlockDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlockDemoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				2AE3727523151C5B00E83724 /* AppDelegate.swift */,
 				2AE3727723151C5B00E83724 /* ViewController.swift */,
 				2AE372A623152ADA00E83724 /* ListDemoViewController.swift */,
+				2AE372A8231531FC00E83724 /* BlockDemoViewController.swift */,
+				2AE372A9231531FC00E83724 /* BlockDemoViewController.xib */,
 				2AE3727923151C5B00E83724 /* Main.storyboard */,
 				2AE3727C23151C5B00E83724 /* Assets.xcassets */,
 				2AE3727E23151C5B00E83724 /* LaunchScreen.storyboard */,
@@ -246,6 +252,7 @@
 				2AE3728023151C5B00E83724 /* LaunchScreen.storyboard in Resources */,
 				2AE3727D23151C5B00E83724 /* Assets.xcassets in Resources */,
 				2AE3727B23151C5B00E83724 /* Main.storyboard in Resources */,
+				2AE372AB231531FC00E83724 /* BlockDemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +280,7 @@
 				2AE3727823151C5B00E83724 /* ViewController.swift in Sources */,
 				2AE372A523151F1300E83724 /* TabBarViewController.swift in Sources */,
 				2AE3727623151C5B00E83724 /* AppDelegate.swift in Sources */,
+				2AE372AA231531FC00E83724 /* BlockDemoViewController.swift in Sources */,
 				2AE372A723152ADA00E83724 /* ListDemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
