@@ -24,7 +24,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         createTableView()
     }
     func createTableView() -> Void {
-        mainTableView = UITableView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height),style:.plain)
+        mainTableView = UITableView(frame: CGRect(x: 0, y: 0, width: kScreenWidth, height: self.view.frame.height),style:.plain)
 //        mainTableView?.backgroundColor = UIColor.white
         mainTableView?.tableFooterView = UIView()
         mainTableView?.delegate = self

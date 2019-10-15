@@ -24,6 +24,9 @@ class TabBarViewController: UITabBarController {
         //导航栏
         let nav = UINavigationController(rootViewController: v1)
         
+        //第二个tabbar
+        
+        
         let tabArray = [nav]
         self.viewControllers = tabArray
     }

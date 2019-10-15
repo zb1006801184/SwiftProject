@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AB37BB92355ADD400F15341 /* SwiftProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB37BB82355ADD400F15341 /* SwiftProject.swift */; };
 		2AE3727623151C5B00E83724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3727523151C5B00E83724 /* AppDelegate.swift */; };
 		2AE3727823151C5B00E83724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3727723151C5B00E83724 /* ViewController.swift */; };
 		2AE3727B23151C5B00E83724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE3727923151C5B00E83724 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AB37BB82355ADD400F15341 /* SwiftProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProject.swift; sourceTree = "<group>"; };
 		2AE3727223151C5B00E83724 /* SwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE3727523151C5B00E83724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AE3727723151C5B00E83724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				2AE3727C23151C5B00E83724 /* Assets.xcassets */,
 				2AE3727E23151C5B00E83724 /* LaunchScreen.storyboard */,
 				2AE3728123151C5B00E83724 /* Info.plist */,
+				2AB37BB82355ADD400F15341 /* SwiftProject.swift */,
 			);
 			path = SwiftProject;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AE3727823151C5B00E83724 /* ViewController.swift in Sources */,
+				2AB37BB92355ADD400F15341 /* SwiftProject.swift in Sources */,
 				2AE372A523151F1300E83724 /* TabBarViewController.swift in Sources */,
 				2AE3727623151C5B00E83724 /* AppDelegate.swift in Sources */,
 				2AE372AA231531FC00E83724 /* BlockDemoViewController.swift in Sources */,
