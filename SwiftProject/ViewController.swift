@@ -20,7 +20,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         // Do any additional setup after loading the view.
         self.view.backgroundColor = UIColor.white
         self.title = "首页";
-        listData = ["UITableView","Block的使用"]
+        listData = ["UITableView","Block的使用","SnapKit的使用"]
         createTableView()
     }
     func createTableView() -> Void {
@@ -59,6 +59,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                 self.title = title
             }
             
+        }
+        if indexPath.row == 2 {
+            let snapKitDemo = SnapKitDemoViewController()
+            snapKitDemo.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(snapKitDemo, animated: true)
         }
     }
     
